@@ -1,0 +1,1830 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "XGE PT-BR",
+				"abbreviation": "XGE PT-BR",
+				"full": "Magias XGE PT-BR",
+				"url": "",
+				"authors": [
+					"Marcelo"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1591710168,
+		"dateLastModified": 1591710168
+	},
+	"spell": [
+		{
+			"name": "Controlar Chamas",
+			"source": "XGE PT-BR",
+			"page": 152,
+			"otherSources": [
+				{
+					"source": "EEPC",
+					"page": 16
+				}
+			],
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				},
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Você escolhe uma chama não mágica que você possa ver, dentro do alcance, e que ocupe até um cubo de 1,5 metros. Você afeta ela de uma das seguintes formas:",
+				{
+					"type": "list",
+					"items": [
+						"Você instantaneamente expande a chama em 1,5 metro em uma direçào, considerando que exista madeira ou outro combustível no local novo.",
+						"Você instantaneamente extingue as chamas dentro do cubo.",
+						"Você dobra ou reduz à metade a área de luz plena e de penumbra emitida pela chama, muda a cor dela, ou ambos. As mudanças duram por 1 hora.",
+						"Você faz com que formas simples - como um forma imprecisa de uma criatu:ra, objeto inanimado ou local - apareçam dentro das chamas e se anime como você quiser. As formas duram 1 hora."
+					]
+				},
+				"Se você conjurar essa magia diversas vezes, você pode ter até três dos seus efeitos não instantâneos ativos ao mesmo tempo, e você pode dissipar um efeito desses com uma ação."
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"C"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Criar Fogueira",
+			"source": "XGE PT-BR",
+			"page": 152,
+			"otherSources": [
+				{
+					"source": "EEPC",
+					"page": 16
+				}
+			],
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você cria uma fogueira no solo em um ponto que você possa ver, dentro do alcance. Até a magia acabar, a fogueira preenche um cubo de 1,5 metros. Qualquer criatura no espaço da fogueira quando você a conjura deve ser bem sucedida num teste de resistência de Destreza ou sofrerá {@dice 1d8} de dano de fogo. Uma criatura também deve realizar o teste de resistência quando entrar no espaço da fogueira pela primeira vez em um tumo, ou terminar seu turno nela."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"O dano da magia aumenta em {@dice 1d8} quando você alcança o 5o nível ({@dice 2d8}) , 11 o nível ({@dice 3d8}) e 17° nível ({@dice 4d8})."
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "fire damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"damageInflict": [
+				"fire"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"C"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer (Revisited)",
+						"source": "UAArtificerRevisited"
+					},
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					}
+				]
+			}
+		},
+		{
+			"name": "Picada Congelante",
+			"source": "XGE PT-BR",
+			"page": 156,
+			"otherSources": [
+				{
+					"source": "EEPC",
+					"page": 18
+				}
+			],
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você faz com que um frio entorpecente se forme em uma criatura que você possa ve:r, dentro do alcance. O alvo deve realizar um teste de resistência de Constituição. Se falhar na resistência, o alvo sofre {@dice 1d6} de dano de frio, e terá desvantagem na próxima jogada de ataque com arma que fizer antes do final do seu próximo tumo."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"O dano da magia aumenta em {@dice 1d6} quando você alcança o 5o nível ({@dice 2d6}) , 11 o nível ({@dice 3d6}) e 17° nível ({@dice 4d6})."
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "cold damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"damageInflict": [
+				"cold"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer (Revisited)",
+						"source": "UAArtificerRevisited"
+					},
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					}
+				]
+			}
+		},
+		{
+			"name": "Lufada",
+			"source": "XGE PT-BR",
+			"page": 157,
+			"otherSources": [
+				{
+					"source": "EEPC",
+					"page": 19
+				},
+				{
+					"source": "UAWGE",
+					"page": 107
+				},
+				{
+					"source": "ERLW",
+					"page": 50
+				}
+			],
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você pressiona o ar e o compele a criar um dos seguintes efeitos em um ponto que você consegue ver dentro do alcance:",
+				{
+					"type": "list",
+					"items": [
+						"Uma criatura média ou menor que você escolher deve ser bem sucedido num teste de resistência de Força ou será afastada 1,5m metros de você.",
+						"Você cria uma pequena rajada de ar capaz de mover um objeto que não esteja sendo segurado nem carregado e que não pese mais que 2,5Kg. O objeto é afastado 3m de você. Ele não é empurrado com força suficiente para causar dano.",
+						"Você cria um efeito sensorial inofensivo usando o ar, como fazer folhas farfalharem, ventos fecharempersianas ou suas roupas balaçarem com uma brisa."
+					]
+				}
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Half-Elf (Mark of Storm)",
+					"source": "ERLW",
+					"baseName": "Half-Elf",
+					"baseSource": "PHB"
+				}
+			]
+		},
+		{
+			"name": "Infestação",
+			"source": "XGE PT-BR",
+			"page": 158,
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "uma pulga viva"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você provoca uma nuvem de ácaros, pulgas e outros parasitas a aparecer momentaneamente sobre uma criatura que você pode ver dentro alcance. O alvo",
+				"deve ser bem-sucedido em teste de resistência de Constituição, ou sofre {@dice 1d6} de dano de veneno e se move 1,5 metros em uma direção aleatória, se ele pode se mover e sua velocidade é de pelo menos 1,5 metros. Role um {@dice d4} pela direção: 1, norte; 2, sul; 3 , leste; ou 4 , oeste. Este movimento não provoca ataques de oportunidade, e se a direção rolada estiver bloqueada, o alvo não se move."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"O dano da magia aumenta em {@dice 1d6} quando você alcança 5º nível ({@dice 2d6}), llº nível (3016) e 17º nível ({@dice 4d6})."
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "poison damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"damageInflict": [
+				"poison"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Moldar Terra",
+			"source": "XGE PT-BR",
+			"page": 162,
+			"otherSources": [
+				{
+					"source": "EEPC",
+					"page": 21
+				}
+			],
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				},
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Você escolhe uma porção de detritos ou pedra que você possa ver, dentro do alcance, e que caiba num cubo de 1,5 metros. Você manipula-a de uma das seguintes maneiras:",
+				{
+					"type": "list",
+					"items": [
+						"Se você afetar uma área de terra solta, você pode escava-la instantaneamente, movendo-a pelo solo e depositando a 1,5 metros de distância. Esse movimento não tem força suficiente para causar dano.",
+						"Você faz com que formas, cores ou ambos apareçam na terra ou pedra, escrevendo palavras, criando imagens ou moldando padrões. As mudanças duram por 1 hora.",
+						"Se a terra ou pedra que você afetou estiver no solo, você faz com que ele se tome terreno difícil. Alternativamente, você pode fazer com que solo se torne terreno normal, caso ele já seja terreno difícil. Essa mudança dura por 1 hora."
+					]
+				},
+				"Se você conjurar essa magia diversas vezes, você pode ter até dois dos seus efeitos não instantâneos ativos ao mesmo tempo, e você pode dissipar um efeito desses com uma ação."
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"C"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Moldar Água",
+			"source": "XGE PT-BR",
+			"page": 164,
+			"otherSources": [
+				{
+					"source": "EEPC",
+					"page": 21
+				},
+				{
+					"source": "EGW"
+				}
+			],
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				},
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Você escolhe uma área de água que você possa ver, dentro do alcance, e que caiba num cubo de 1,5 metros. Você manipula-a de uma das seguintes maneiras:",
+				{
+					"type": "list",
+					"items": [
+						"Você move instantaneamente ou, de alguma outra forma, muda o curso da água como você ordenar, até 1,5 metros em qualquer direção. Esse movimento não tem força suficiente para causar dano.",
+						"Você faz com que a água forme formas simples e se anime como você ordenar. Essa mudança dura por 1 hora.",
+						"Você muda a cor ou opacidade da água. A água deve ser modificada da mesma forma por inteiro. Essa mudança dura por 1 hora.",
+						"Você congela a água, considerando que não haja criaturas nela. A água descongela em 1 hora."
+					]
+				},
+				"Se você conjurar essa magia diversas vezes, você pode ter até dois dos seus efeitos não instantâneos ativos ao mesmo tempo, e você pode dissipar um efeito desses com uma ação."
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"C"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Genasi (Water)",
+					"source": "EEPC",
+					"baseName": "Genasi",
+					"baseSource": "EEPC"
+				}
+			]
+		},
+		{
+			"name": "Soar os Mortos",
+			"source": "XGE PT-BR",
+			"page": 169,
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você aponta para uma criatura que você pode ver dentro do alcance, e o som de um sino doloroso preenche o ar á volta dela por um momento. O alvo deve ter sucesso em um teste de resistência de Sabedoria ou sofrerá {@dice 1d8} de dano necrótico. Se o alvo tiver perdido qualquer de seus pontos de vida, ele sofre um dano necrótico de {@dice 1d12}."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"O dano da magia aumenta em um dado quando atinge o 5º nível ({@dice 2d8} ou {@dice 2d12}), 11º nível ({@dice 3d8} ou {@dice d12}) e 17º nível ({@dice 4d8} ou {@dice 4d12})."
+					]
+				}
+			],
+			"scalingLevelDice": [
+				{
+					"label": "necrotic damage",
+					"scaling": {
+						"1": "1d8",
+						"5": "2d8",
+						"11": "3d8",
+						"17": "4d8"
+					}
+				},
+				{
+					"label": "necrotic damage to wounded creature",
+					"scaling": {
+						"1": "1d12",
+						"5": "2d12",
+						"11": "3d12",
+						"17": "4d12"
+					}
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Atração Elétrica",
+			"source": "XGE PT-BR",
+			"page": 143,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você cria um chicote de energia elétrica em uma criatura à sua escolha que você possa ver dentro do alcance. O alvo deve obter sucesso em um teste de resistência de Força ou é empurrado 3m em uma linha reta diante de você e então recebe {@dice 1d8} de dano elétrico se estivesse a 1,5m de você."
+			],
+			"scalingLevelDice": {
+				"label": "lightning damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"damageInflict": [
+				"lightning"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Pedra Encantada",
+			"source": "XGE PT-BR",
+			"page": 160,
+			"otherSources": [
+				{
+					"source": "EEPC",
+					"page": 20
+				}
+			],
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Você toca de uma a três pedrinhas e as imbui com mágica. Você ou mais alguém pode realizar um ataque á distância com magia com uma dessas pedrinhas ao arremessa-las ou dispara-las com uma funda. Se for arremessada, ela tem um alcance de 18 metros. Se mais alguém atacar com a pedrinha, esse atacante adiciona seu modificador de habilidade de conjuração, não o do atacante, á jogada de ataque. Se atingir, o alvo sofre dano de concussão igual a 1 {@dice d6} + seu modificador de habilidade de conjuração. Atingindo ou errando, a magia então termina na pedra.",
+				"Se você conjurar essa magia novamente, ela acaba prematuramente em quaisquer pedrinhas que ainda estivessem sendo afetadas por ela."
+			],
+			"damageInflict": [
+				"bludgeoning"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer (Revisited)",
+						"source": "UAArtificerRevisited"
+					},
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					}
+				]
+			}
+		},
+		{
+			"name": "Selvageria Primitiva",
+			"source": "XGE PT-BR",
+			"page": 163,
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você canaliza magia primordial para fazer com que seus dentes ou unhas se afiem, pronto para entregar um ataque corrosivo. Faça um ataque mágico corpo a corpo contra uma criatura dentro de 1,5 metros de você. Em um acerto, o alvo recebe {@dice 1d10} de danoácido. Depois de fazer o ataque, seus dentes ou unhas voltam ao normal."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"O dano da magia aumenta em {@dice 1d10} quando você alcança 5º nível ({@dice 2d10}), llº nível ({@dice 3d10}) e 17º nível ({@dice 4d10})."
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "acid damage",
+				"scaling": {
+					"1": "1d10",
+					"5": "2d10",
+					"11": "3d10",
+					"17": "4d10"
+				}
+			},
+			"damageInflict": [
+				"acid"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				],
+				"fromClassListVariant": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Palavra do Esplendor",
+			"source": "XGE PT-BR",
+			"page": 171,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "a holy symbol"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você pronuncia uma palavra divina e um brilho radiante propoaga de você. Cada criatura a sua escolha que você pode ver dentro do alcance deve ter sucesso em um teste de resistência de Constituição ou sofre {@dice 1d6} de dano radiante."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"O dano da magia aumenta em {@dice 1d6} quando você alcança o 5º nível ({@dice 2d6}), 11º nível ({@dice 3d6}) e 17º nível ({@dice 4d6})."
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "radiant damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"damageInflict": [
+				"radiant"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Absorver Elementos",
+			"source": "XGE PT-BR",
+			"page": 150,
+			"otherSources": [
+				{
+					"source": "EEPC",
+					"page": 15
+				}
+			],
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "que você faz quando sofre dano de ácido, frio, fogo, elétrico ou trovejante"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"A magia reverte parte da energia recebida, minimizando seu efeito em você e armazenando-a no seu próximo ataque corpo-a-corpo. Você tem resistência ao tipo de dano pertinente, incluindo do ataque que desencadeou a magia, até o início do seu próximo tumo. Além disso, da primeira vez que você atingir um ataque corpo-a-corpo no seu próximo tumo, o alvo sofre {@dice 1d6} de dano extra do tipo relacionado e a magia termina."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"Quando você conjura essa magia usando um espaço de magia de 2º nível ou superior, o dano extra aumenta em {@dice 1d6} para cada nível do espaço acima do 1º."
+					]
+				}
+			],
+			"damageResist": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"thunder"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer (Revisited)",
+						"source": "UAArtificerRevisited"
+					},
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					}
+				]
+			}
+		},
+		{
+			"name": "Vínculo com a Besta",
+			"source": "XGE PT-BR",
+			"page": 150,
+			"otherSources": [
+				{
+					"source": "EEPC",
+					"page": 15
+				}
+			],
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "(um tufo de pelos envolto por um pano"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você estabelece um elo telepático com uma besta que você tocar que seja amigável a você ou que esteja enfeitiçada por você. A magia falha se o valor de Inteligência da besta for 4 ou maior. Até a magia acabar, o elo permanece ativo contato que você e a besta tenham linha de visão um do outro. Através do elo, a besta pode compreender suas mensagens telepáticas para ela e pode comunicar telepaticamente emoções e conceitos simples de volta para você. Enquanto o elo estiver ativo, a besta ganha vantagem nas jogadas de ataque contra qualquer criatura a até 1,5 metros de você que vooê possa ver."
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Catapulta",
+			"source": "XGE PT-BR",
+			"page": 150,
+			"otherSources": [
+				{
+					"source": "EEPC",
+					"page": 15
+				}
+			],
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Escolha um objeto pesando entre 0,5 e 2,5 quilos dentro do alcance que não esteja sendo vestido ou carregado. O objeto voa em linha reta até 18 metros na direção que você escolher, antes de cair no chão, parando prematuramente se atingir uma superfície sólida. Se o objeto puder atingir uma criatura, a criatura deve realizar um teste de resistência de Destreza. Se falhar na resistência, o objeto atinge o alvo e para de se mover. Em qualquer caso, tanto o objeto quanto a criatura ou superfície sólida sofrem {@dice 3d8} de dano de concussão."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"Quando você conjura essa magia usando um espaço de magia de 2º nível ou superior, o peso máximo do objeto que você pode arremessar com essa magia aumenta em 2,5 quilos, e o dano aumenta em {@dice 1d8}, para cada nível do espaço acima do 1°."
+					]
+				}
+			],
+			"damageInflict": [
+				"bludgeoning"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer (Revisited)",
+						"source": "UAArtificerRevisited"
+					},
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					}
+				]
+			}
+		},
+		{
+			"name": "Causar Medo",
+			"source": "XGE PT-BR",
+			"page": 151,
+			"level": 1,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você desperta o senso de mortalidade em uma criatura que você possa ver dentro do alcance. O alvo precisa ser bem sucedido em teste de resistência de Sabedoria ou se tomará amedrontada por você até que a magia termine. O alvo amedrontado pode repetir o teste de resistência ao fim de cada um de seus tumos, terminando o efeito em si mesmo com um sucesso."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"Quando você conjura essa magia usando um espaço de magia de 2º nível ou superior, você pode adicionar uma criatura extra como alvo para cada nível do espaço acima do 1º. As criaturas precisam estar a no máximo 9 metros uma da outra quando você as incluir como alvos."
+					]
+				}
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromClassListVariant": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Cerimônia",
+			"source": "XGE PT-BR",
+			"page": 151,
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "pó de prata valendo, no mínimo, 25po que a magia consome",
+					"consumed": true,
+					"cost": 2500
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"Você realiza uma cerimônia religiosa especial infundida com magia. Quando você conjura a magia, escolha um dos ritos seguintes, cujo alvo deve estar dentro de 3 metros de você durante toda a conjuração..",
+				{
+					"type": "entries",
+					"name": "Expiação",
+					"entries": [
+						"Você toca uma criatura disposta cujo alinhamento mudou e você faz um teste de Sabedoria (Intuição), C{@dice D20}. Em um teste bem-sucedido, você restaura o alvo para o alinhamento original.."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Abençoar Água",
+					"entries": [
+						"Você toca um frasco de água e faz com que se torne água benta."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rito de Passagem",
+					"entries": [
+						"Você toca um humanoide que seja um jovem adulto. Pelas próximas 24 horas, sempre que o alvo fizer um teste de habilidade, ele pode rolar um {@dice d4} e adicionar o número rolado ao teste de habilidade. A criatura pode se beneficiar deste rito apenas uma vez."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dedicação",
+					"entries": [
+						"Você toca um humanoide que deseja se dedicar aos serviços do seu deus. Pelas próximas 24 horas, sempre que o alvo faz um teste de resistência, ele pode rolar um {@dice d4} e adicionar o numero rolado ao teste. A criatura pode se beneficiar desse rito apenas uma vez."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Funeral",
+					"entries": [
+						"Você toca em um cadáver e, durante os próximos 7 dias, ele não pode se tornar um morto-vivo por qualquer meio que não seja através da magia desejo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Casamento",
+					"entries": [
+						"Você toca humanoides adultos dispostos a serem unidos em matrimônio. Pelos próximos 7 dias, cada alvo ganha um bônus de +2 na CA enquanto estiverem a 9 metros um do outro. Uma criatura pode se beneficiar desse rito novamente apenas se tomar viúvo."
+					]
+				}
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				],
+				"fromClassListVariant": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Raio de Caos",
+			"source": "XGE PT-BR",
+			"page": 151,
+			"otherSources": [
+				{
+					"source": "GGR"
+				}
+			],
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você conjura uma massa ondulante de energia caótica em uma criatura no alcance. Faça um ataque a distância com magia contra o alvo. Se atingir, o alvo leva {@dice 2d8 + 1d6} de dano. Escolha um dos {@dice d8}s. O número rolado nesse dado determina o tipo de dano do ataque, como mostrado abaixo..",
+				{
+					"type": "table",
+					"caption": "Raio de Caos",
+					"colLabels": [
+						"{@dice d8}",
+						"Tipo de Dano"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 1
+								}
+							},
+							"Ácido"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 2
+								}
+							},
+							"Frio"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 3
+								}
+							},
+							"Fogo"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 4
+								}
+							},
+							"Energia"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 5
+								}
+							},
+							"Elétrico"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 6
+								}
+							},
+							"Veneno"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 7
+								}
+							},
+							"Psíquico"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 8
+								}
+							},
+							"Trovão"
+						]
+					]
+				},
+				"Se você rolar o mesmo número em ambos os {@dice d8}s, a energia caótica salta do alvo para uma criatura diferente a sua escolha dentro de 9 metros de distãncia. Faça uma nova rolagem de ataque contra o novo alvo, e faça uma nova rolagem de danos, o que pode fazer com que a energia caótica salte novamente.",
+				"Uma criatura pode ser alvo somente uma vez por conjuração dessa magia."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"Quando você conjura essa magia usando um espaço de magia de 2º nível ou superior, o dano aumenta em {@dice 1d6} para cada nível do espaço acima do 1º."
+					]
+				}
+			],
+			"damageInflict": [
+				"acid",
+				"cold",
+				"fire",
+				"force",
+				"lightning",
+				"poison",
+				"psychic",
+				"thunder"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"backgrounds": [
+				{
+					"name": "Izzet Engineer",
+					"source": "GGR"
+				}
+			]
+		},
+		{
+			"name": "Tremor de Terra",
+			"source": "XGE PT-BR",
+			"page": 155,
+			"otherSources": [
+				{
+					"source": "EEPC",
+					"page": 17
+				}
+			],
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você provoca um tremor no solo num raio de 3 metros. Cada criatura diferente de você na área deve realizar um teste de resistência de Destreza. Se falhar na resistência, uma criatura sofre {@dice 1d6} de dano de concussão e fica caída no chão. Se o solo na área for de terra ou pedra solta, ele se toma terreno difícil até ser limpo."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"Quando você conjura essa magia usando um espaço de magia de 2º nível ou superior, o dano aumenta em {@dice 1d6} para cada nível do espaço acima do 1º."
+					]
+				}
+			],
+			"damageInflict": [
+				"bludgeoning"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"R"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Faca de Gelo",
+			"source": "XGE PT-BR",
+			"page": 157,
+			"otherSources": [
+				{
+					"source": "EEPC",
+					"page": 19
+				}
+			],
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "uma gota de água ou pedaço de gelo"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você cria um fragmento de gelo e arremessa-o em uma criatura dentro do alcance. Faça um ataque à distãncia com magia contra o alvo. Se atingir, o alvo sofre {@dice 1d10} de dano perfurante. Atingindo ou errando, o fragmento explode. O alvo e cada criatura a até 1,5 metros do ponto onde o gelo explodiu deve ser bem sucedido num teste de resistência de Destreza ou sofrerá {@dice 2d6} de dano de frio."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"Quando você conjura essa magia usando um espaço de magia de 2º nível ou superior, o dano de frio aumenta em {@dice 1d6} para cada nível do espaço acima do 1º."
+					]
+				}
+			],
+			"damageInflict": [
+				"cold",
+				"piercing"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Laço",
+			"source": "XGE PT-BR",
+			"page": 165,
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "7,5 metros de corda que a magia consome",
+					"consumed": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"Ao conjurar esta magia, você usa a corda para criar um círculo com um raio de 1,5 metros no chão. Quando você termina a conjuração, a corda desaparece e o círculo toma-se uma armadilha mágica.",
+				"Esta armadilha é quase invisível, exigindo uma verificação de Inteligência (Investigação) bem-sucedida contra sua CD de resistência mágica para ser discemida.",
+				"A armadilha dispara quando uma criatura pequena, média ou grande se move para o chão no raio da magia. Essa criatura deve ter sucesso em um teste de resistência de Destreza ou será magicamente presa no ar, deixando-a pendurada de cabeça para baixo a 90cm acima do chão. A criatura é retida lá até a magia terminar.",
+				"Uma criatura retida pode fazer um teste de resistência de Destreza no final de cada uma de seus tumos, terminando o efeito sobre si mesmo em um sucesso. Alternativamente, a criatura ou outra pessoa que pode alcançá-la pode usar uma ação para fazer uma verificação de Inteligência (Arcanismo) contra sua CD de resistência mágica.",
+				"Em um sucesso, o efeito de retenção termina. Depois que a armadilha é disparada, a magia termina quando nenhuma criatura está retida por ela."
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"opposedCheck": [
+				"intelligence"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer (Revisited)",
+						"source": "UAArtificerRevisited"
+					},
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					}
+				]
+			}
+		},
+		{
+			"name": "Golpe de Zephyr",
+			"source": "XGE PT-BR",
+			"page": 171,
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Você se move como o vento. Até o fim da magia, seu movimento não provoca ataques de oportunidade.",
+				"Uma vez até o fim da magia, você pode se dar vantagem em uma rolagem de ataque com arma no seu turno. Esse ataque infringe {@dice 1d8} de dano de energia extra caso acerte. Não importa se acertar ou errar, sua velocidade de deslocamento aumenta em 9 metros até o final desse turno."
+			],
+			"damageInflict": [
+				"force"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}
