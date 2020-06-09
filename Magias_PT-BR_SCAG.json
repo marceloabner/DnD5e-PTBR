@@ -1,0 +1,349 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SCAG PT-BR",
+				"abbreviation": "SCAG PT-BR",
+				"full": "Magias SCAG PT-BR",
+				"url": "",
+				"authors": [
+					"Marcelo"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1588552519,
+		"dateLastModified": 1588552519
+	},
+	"spell": [
+		{
+			"name": "Lâmina Estrondosa",
+			"source": "SCAG PT-BR",
+			"page": 142,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "uma arma"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Como parte da ação usada para conjurar esta magia, você deve fazer um ataque corpo a corpo com uma arma contra uma criatura dentro do alcance da magia, do contrário a magia falha. Se acertar, o alvo sofre os efeitos normais do ataque e fica envolto em uma energia trovejante até o começo do próximo turno do conjurador. Se o alvo se mover voluntariamente antes disso, ele imediatamante recebe {@dice 1d8} de dano trovejante e a magia encerra."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"Este dano da magia aumenta quando você alcança níveis maiores. No nível 5, o ataque corpo a corpo causa um dano extra trovejante de {@dice 1d8} ao alvo, e o dano sofrido pelo alvo mover-se sobe para {@dice 2d8}. Ambas as rolagens de dados aumentam em {@dice 1d8} no 11º nível e no 17º nível."
+					]
+				}
+			],
+			"scalingLevelDice": [
+				{
+					"label": "thunder damage on moving",
+					"scaling": {
+						"1": "1d8",
+						"5": "2d8",
+						"11": "3d8",
+						"17": "4d8"
+					}
+				},
+				{
+					"label": "thunder damage on hit",
+					"scaling": {
+						"5": "1d8",
+						"11": "2d8",
+						"17": "3d8"
+					}
+				}
+			],
+			"damageInflict": [
+				"thunder"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "4a72a5461ace231bfb91b815f2c69e51"
+		},
+		{
+			"name": "Lâmina Verde-Flamejante",
+			"source": "SCAG PT-BR",
+			"page": 143,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "uma arma"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Como parte da ação usada para conjurar esta magia, você deve fazer um ataque corpo a corpo com uma arma contra uma criatura dentro do alcance da magia, do contrário a magia falha. Se acertar, o alvo sofre os efeitos normais do ataque e uma chama verde salta do alvo até uma criatura que você possa ver que esteja a 1,5, dele. A segunda criatura recebe dano de fogo igual ao seu modificador de habilidade de conjuração."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"Este dano da magia aumenta quando você alcança níveis maiores. No 5º nível o ataque corpor a corpo causa um dano extra de fogo de {@dice 1d8} ao alvo, e o dano da segunda criatura sobe para {@dice 1d8} + o seu modificador de habilidade de conjuração. Ambas rolagens de dados aumentam de {@dice 1d8} no 11º nível e no 17º nível."
+					]
+				}
+			],
+			"scalingLevelDice": [
+				{
+					"label": "fire damage to secondary creature",
+					"scaling": {
+						"1": "{{spellcasting_mod}}",
+						"5": "1d8 + {{spellcasting_mod}}",
+						"11": "2d8 + {{spellcasting_mod}}",
+						"17": "3d8 + {{spellcasting_mod}}"
+					}
+				},
+				{
+					"label": "fire damage on hit",
+					"scaling": {
+						"5": "1d8",
+						"11": "2d8",
+						"17": "3d8"
+					}
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "eac7e18d57ba8b76337ae3b2993df6a8"
+		},
+		{
+			"name": "Atração Elétrica",
+			"source": "SCAG PT-BR",
+			"page": 143,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você cria um chicote de energia elétrica em uma criatura à sua escolha que você possa ver dentro do alcance. O alvo deve obter sucesso em um teste de resistência de Força ou é empurrado 3m em uma linha reta diante de você e então recebe {@dice 1d8} de dano elétrico se estivesse a 1,5m de você."
+			],
+			"scalingLevelDice": {
+				"label": "lightning damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"damageInflict": [
+				"lightning"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "4eb87e20405d9e859b9504ec76f597f3"
+		},
+		{
+			"name": "Explosão de Espadas",
+			"source": "SCAG PT-BR",
+			"page": 143,
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Você cria um círculo momentâneo de lâminas espectrais que lhe rodeiam. Cada criatura dentro do alcance, exceto você, precisa obter sucesso em um teste de resistência de Destreza ou sofrerá {@dice 1d6} de dano de Força."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"O dano desta magia aumenta de {@dice 1d6} quando você alcança o nível 5 ({@dice 2d6}), nível 11 ({@dice 3d6}), nível 17 ({@dice 4d6})."
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "force damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"damageInflict": [
+				"force"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "271741c045984b5f7da7bcaa24e427d4"
+		}
+	]
+}
