@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1593912704,
-		"dateLastModified": 1593912704
+		"dateAdded": 1593915689,
+		"dateLastModified": 1593915689
 	},
 	"monster": [
 		{
@@ -705,7 +705,18 @@
 				"swamp",
 				"underdark"
 			],
-			"tokenUrl": "https://5e.tools/img/PHB PT-BR/Troll.png?v=1.106.11",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/FTTMT52.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/EUptpn5.png",
 			"soundClip": {
 				"type": "external",
 				"url": "https://5e.tools/audio/bestiary/troll.mp3?v=1.106.11"
