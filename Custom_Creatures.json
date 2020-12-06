@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1607230019,
-		"dateLastModified": 1607230019
+		"dateAdded": 1607230866,
+		"dateLastModified": 1607230866
 	},
 	"monster": [
 		{
@@ -2023,7 +2023,7 @@
 				{
 					"name": "Longsword",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h} {{@damage 2d10 + 4}) slashing damage plus ({@damage 1d8}) fire damage."
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) slashing damage, plus 4 ({@damage 1d8}) fire damage."
 					]
 				},
 				{
@@ -2135,7 +2135,8 @@
 			],
 			"damageTags": [
 				"F",
-				"P"
+				"P",
+				"S"
 			],
 			"miscTags": [
 				"MW",
