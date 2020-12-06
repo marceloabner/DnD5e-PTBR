@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1602331492,
-		"dateLastModified": 1602331492
+		"dateAdded": 1607230019,
+		"dateLastModified": 1607230019
 	},
 	"monster": [
 		{
@@ -1478,12 +1478,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://cdnb.artstation.com/p/assets/images/images/009/411/135/large/mike-burns-ramunaphydra-small.jpg"
+							"url": "https://i.imgur.com/YyjKzAU.jpg"
 						}
 					}
 				]
 			},
-			"tokenUrl": "https://i.imgur.com/iF9twd8.png",
+			"tokenUrl": "https://i.imgur.com/nasZixc.png",
 			"soundClip": {
 				"type": "external",
 				"url": "https://5e.tools/audio/bestiary/hydra.mp3?v=1.113.0"
@@ -1501,6 +1501,1029 @@
 				"AOE",
 				"MW",
 				"RCH"
+			]
+		},
+		{
+			"name": "Naga Warrior",
+			"source": "PHB PT-BR",
+			"page": 204,
+			"size": "M",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"shapechanger",
+					"naga"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 71,
+				"formula": "13d8 + 13"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 13,
+			"int": 14,
+			"wis": 14,
+			"cha": 16,
+			"save": {
+				"wis": "+4",
+				"cha": "+5"
+			},
+			"skill": {
+				"deception": "+5",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 120 ft. (penetrates magical darkness)"
+			],
+			"passive": 12,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Common",
+				"Draconic"
+			],
+			"cr": "4",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The naga warrior innate spellcasting ability is Charisma (spell save {@dc 13}). The naga warrior can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell animal friendship} (snakes only)"
+					],
+					"daily": {
+						"3": [
+							"{@spell suggestion}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The naga warrior is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell eldritch blast} (range 300 ft., +3 bonus to each damage roll)",
+								"{@spell friends}",
+								"{@spell message}",
+								"{@spell minor illusion}",
+								"{@spell poison spray}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"3": {
+							"spells": [
+								"{@spell charm person}",
+								"{@spell crown of madness}",
+								"{@spell detect thoughts}",
+								"{@spell expeditious retreat}",
+								"{@spell fly}",
+								"{@spell hypnotic pattern}",
+								"{@spell illusory script}"
+							],
+							"slots": 2,
+							"lower": 1
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The naga warrior has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Mind Fangs (2/Day)",
+					"entries": [
+						"The first time the naga warrior hits with a melee attack on its turn, it can deal an extra 16 ({@damage 3d10}) psychic damage to the target."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The naga warrior makes one bite attack and one scimitar attack, or two glaive attacks, or cast eldritch blast for two attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage plus 7 ({@damage 2d6}) poison damage."
+					]
+				},
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Glaive",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Eldritch Blast",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}7 ({@damage 1d10}) force damage."
+					]
+				},
+				{
+					"name": "Mind Fangs (2/day)",
+					"entries": [
+						"The first time the naga warrior hits with a melee attack on its turn, it can deal an extra ({@dice 3d10}) psychic damage to the target"
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"forest",
+				"underdark"
+			],
+			"fluff": {
+				"name": "Yuan-ti Mind Whisperer",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Yuan-ti malisons who become priestly devotees of a particular god-be it Sseth, Dendar the Night Serpent, or Merrshaulk-often rise through the ranks to become spiritual leaders among the serpent folk. These priests perform sacrificial rites to appease their vile gods."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Yuan-ti Mind Whisperer",
+										"entries": [
+											"Mind whisperers are malison spellcasters that enter into a pact with the serpent god Sseth, the Sibilant Death. They use their abilities to convert others to their faith, increase their personal power, and befuddle the minds of their enemies.",
+											"A mind whisperer is elusive, manipulative, unpredictable, and willing to cheat or kill comrades and rivals alike if doing so benefits it. The worshipers of Sseth have their hands in many schemes, often plying the middle ground between two factions, and thus spend a lot of energy making sure neither of their allies learn of their conflicting connections. Even among yuan-ti, mind whisperers are known for being self-important, sneaky, and prone to flee at the first sign of trouble.",
+											"This malison is the type that has a human body and a snake head."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/VGM/Yuan-ti Mind Whisperer.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/KxZIQpl.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/yuan-ti-mind-whisperer.mp3?v=1.113.5"
+			},
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"I",
+				"O",
+				"P",
+				"S",
+				"Y"
+			],
+			"spellcastingTags": [
+				"CL",
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			]
+		},
+		{
+			"name": "Thief Master",
+			"source": "PHB PT-BR",
+			"page": 216,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 83,
+				"formula": "13d8 + 26"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 18,
+			"con": 14,
+			"int": 11,
+			"wis": 11,
+			"cha": 12,
+			"save": {
+				"dex": "+7",
+				"int": "+3"
+			},
+			"skill": {
+				"acrobatics": "+7",
+				"athletics": "+3",
+				"perception": "+3",
+				"sleight of hand": "+7",
+				"stealth": "+7"
+			},
+			"passive": 13,
+			"languages": [
+				"any one language (usually Common) plus Thieves' cant"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell booming blade|TCE}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell shield}",
+								"{@spell Tasha's hideous laughter}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell invisibility}",
+								"{@spell misty step}"
+							],
+							"slots": 1
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"On each of its turns, the thief can use a bonus action to take the Dash, Disengage, or Hide action."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the thief is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the thief instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"The thief deals an extra ({@damage 4d6}) damage with sneak attack."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The thief makes three attacks with its shortsword."
+					]
+				},
+				{
+					"name": "Spellsword + Booming Blade",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 1d8 + 4}) piercing damage. If the target willingly moves 5 feet or more before then, the target takes {@damage 2d8} thunder damage, and the spell ends."
+					]
+				},
+				{
+					"name": "Light Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 80/320 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Uncanny Dodge",
+					"entries": [
+						"The thief halves the damage that it takes from an attack that hits it. The thief must be able to see the attacker."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"fluff": {
+				"name": "Master Thief",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Master thieves are known for perpetrating daring heists. They tend to develop a reputation and a cult of personality. A master thief might \"retire\" from hands-on work to run a thieves' guild, spearhead some covert enterprise, or enjoy a quiet life of luxury."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/VGM/Master Thief.png?v=1.117.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/master-thief.mp3?v=1.117.0"
+			},
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"TC",
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Summer Eladrin",
+			"source": "PHB PT-BR",
+			"page": 196,
+			"size": "M",
+			"type": {
+				"type": "fey",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 127,
+				"formula": "17d8 + 51"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 19,
+			"dex": 21,
+			"con": 16,
+			"int": 14,
+			"wis": 12,
+			"cha": 18,
+			"skill": {
+				"athletics": "+8",
+				"intimidation": "+8"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"languages": [
+				"Common",
+				"Elvish",
+				"Sylvan"
+			],
+			"cr": "10",
+			"trait": [
+				{
+					"name": "Fearsome Presence",
+					"entries": [
+						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a {@dc 16} Wisdom saving throw. On a failed save, the creature becomes {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to any eladrin's Fearsome Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Fey Step {@recharge 4}",
+					"entries": [
+						"As a bonus action, the eladrin can teleport up to 30 feet to an unoccupied space it can see."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The eladrin has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Mage Slayer",
+					"entries": [
+						"You have practiced techniques useful in melee combat against spellcasters, gaining the following benefits:",
+						"• When a creature within 5 feet of you casts a spell, you can use your reaction to make a melee weapon attack against that creature.",
+						"• When you damage a creature that is concentrating on a spell, that creature has disadvantage on the saving throw it makes to maintain its concentration.",
+						"• You have advantage on saving throws against spells cast by creatures within 5 feet of you."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The eladrin makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h} {{@damage 2d10 + 4}) slashing damage plus ({@damage 1d8}) fire damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 9} to hit, range 150/600 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage plus 4 ({@damage 1d8}) fire damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The eladrin adds 3 to its AC against one melee attack that would hit it. To do so, the eladrin must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"forest"
+			],
+			"fluff": {
+				"name": "Summer Eladrin",
+				"source": "MTF",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "quote",
+										"entries": [
+											"To be not just ruled by emotions, but physically changed by them? Better to have no emotions at all."
+										],
+										"by": "Mordenkainen"
+									},
+									{
+										"type": "entries",
+										"name": "Summer Eladrin",
+										"entries": [
+											"When they are angered, eladrin enter the season of summer, a burning, tempestuous state that transforms them into aggressive warriors eager to vent their wrath. Their magic responds to their fury and amplifies their fighting ability, which helps them move with astonishing quickness and strike with terrible force."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Eladrin",
+										"entries": [
+											"Eladrin dwell in the verdant splendor of the Feywild. They are related to the elves found on the Material Plane, and resemble them in both their love of beauty and the value they place on personal freedom. But where other elves can temper their wild impulses, eladrin are creatures ruled by emotion—and because of their unique magical nature, they undergo physical changes to match their changes in temperament.",
+											"The eladrin have spent centuries in the Feywild, and most of them have become fey creatures as a result. Some of them are still humanoid, similar in that respect to their other elven kin. The eladrin presented here are of the fey variety."
+										]
+									},
+									{
+										"name": "Creatures of Passion",
+										"type": "entries",
+										"entries": [
+											"The magic flowing through eladrin responds to their emotional state by transforming them into different seasonal aspects, with behaviors and capabilities that change with their forms. Some eladrin might remain in a particular aspect for years, while others run through the emotional spectrum each week."
+										]
+									},
+									{
+										"name": "Lovers of Beauty",
+										"type": "entries",
+										"entries": [
+											"Regardless of the aspect they express, eladrin love beauty and surround themselves with lovely things. Eladrin try to possess any objects they find striking. They might seek to own a painting, a statue, or a glittering jewel. When they encounter people of comely form or luminous spirit, they use their magic to delight those folk or, in the case of evil eladrin, to abduct them."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Changeable Nature",
+										"entries": [
+											"Whenever one of the eladrin presented here finishes a long rest, it can associate itself with a different season, provided it isn't {@condition incapacitated}. When the eladrin makes this change, it uses the stat block of the new season, rather than its old stat block. Any damage the eladrin sustained in its original form applies to the new form, as do any conditions or other ongoing effects affecting it."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MTF/Summer Eladrin.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MTF/Summer Eladrin.png?v=1.117.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/summer-eladrin.mp3?v=1.117.0"
+			},
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"S"
+			],
+			"damageTags": [
+				"F",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"conditionInflict": [
+				"frightened"
+			]
+		},
+		{
+			"name": "Conjurer Warrior",
+			"source": "PHB PT-BR",
+			"page": 212,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"breastplate + defense style"
+					]
+				}
+			],
+			"hp": {
+				"average": 38,
+				"formula": "7d8 + 7"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 13,
+			"int": 17,
+			"wis": 12,
+			"cha": 11,
+			"save": {
+				"int": "+6",
+				"wis": "+4"
+			},
+			"skill": {
+				"arcana": "+6",
+				"history": "+6"
+			},
+			"passive": 11,
+			"languages": [
+				"any four languages"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The conjurer is a 7th-level spellcaster. Its spellcasting ability is intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The conjurer has the following wizard spells prepared:"
+					],
+					"footerEntries": [
+						"*Conjuration spell of 1st level or higher"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell acid splash}",
+								"{@spell booming blade|TCE}",
+								"{@spell poison spray}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell mage armor}",
+								"{@spell magic missile}",
+								"{@spell shield}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell cloud of daggers}*",
+								"{@spell misty step}*",
+								"{@spell web}*"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell fireball}",
+								"{@spell stinking cloud}*"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell Evard's black tentacles}*",
+								"{@spell stoneskin}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Benign Transportation (Recharges after the Conjurer Casts a Conjuration Spell of 1st Level or Higher)",
+					"entries": [
+						"As a bonus action, the conjurer teleports up to 30 feet to an unoccupied space that it can see. If it instead chooses a space within range that is occupied by a willing Small or Medium creature, they both teleport, swapping places."
+					]
+				},
+				{
+					"name": "Action Surge (Recharges on short rest)",
+					"entries": [
+						"On your turn, you can take one additional action."
+					]
+				},
+				{
+					"name": "War Caster",
+					"entries": [
+						"You have practiced casting spells in the midst of combat, learning techniques that grant you the following benefits:",
+						"• You have advantage on Constitution saving throws that you make to maintain your concentration on a spell when you take damage.",
+						"• You can perform the somatic components of spells even when you have weapons or a shield in one or both hands.",
+						"• When a hostile creature's movement provokes an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than making an opportunity attack. The spell must have a casting time of 1 action and must target only that creature."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Second Wind (Recharges on short rest)",
+					"entries": [
+						"You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to {@dice 1d10 + 2}."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"fluff": {
+				"name": "Conjurer",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Conjurers are specialist wizards who summon creatures from other planes and create materials out of thin air. Some conjurers use their magic to bolster armies or destroy enemies on battlefields, while others use summoned creatures to guard their lairs."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/VGM/Conjurer.png?v=1.117.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/conjurer.mp3?v=1.117.0"
+			},
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Blackguard",
+			"source": "PHB PT-BR",
+			"page": 211,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"L",
+				"NX",
+				"C",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 153,
+				"formula": "18d8 + 72"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 11,
+			"con": 18,
+			"int": 11,
+			"wis": 14,
+			"cha": 15,
+			"save": {
+				"cha": "+6",
+				"wis": "+6",
+				"str": "+5",
+				"dex": "+1",
+				"con": "+5",
+				"int": "+1"
+			},
+			"skill": {
+				"athletics": "+8",
+				"deception": "+6",
+				"intimidation": "+6"
+			},
+			"passive": 12,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "8",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The blackguard is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It has the following paladin spells prepared:"
+					],
+					"spells": {
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell command}",
+								"{@spell protection from evil and good}",
+								"{@spell thunderous smite}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell branding smite}",
+								"{@spell find steed}"
+							]
+						},
+						"3": {
+							"slots": 2,
+							"spells": [
+								"{@spell blinding smite}",
+								"{@spell dispel magic}"
+							]
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Gauntlets of Flaming Fury",
+					"entries": [
+						"As a bonus action, you can use the gauntlets to cause magical flames to envelop one or two melee weapons in your grasp. Each flaming weapon deals an extra {@damage 1d6} fire damage on a hit. The flames last until you sheath or let go of either weapon. Once used, this property can't be used again until the next dawn."
+					]
+				},
+				{
+					"name": "Stone of Good Luck (item)",
+					"entries": [
+						"While this polished agate is on your person, you gain a +1 bonus to ability checks and saving throws."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The blackguard makes three attacks with its glaive or its shortbow."
+					]
+				},
+				{
+					"name": "Glaive",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d10 + 4}) slashing damage plus ({@dice 1d8}) fire damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage plus ({@dice 1d8}) fire damage."
+					]
+				},
+				{
+					"name": "Dreadful Aspect (Recharges after a Short or Long Rest)",
+					"entries": [
+						"The blackguard exudes magical menace. Each enemy within 30 feet of the blackguard must succeed on a {@dc 13} Wisdom saving throw or be {@condition frightened} for 1 minute. If a {@condition frightened} target ends its turn more than 30 feet away from the blackguard, the target can repeat the saving throw, ending the effect on itself on a success."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Guardian Emblem (3/day)",
+					"entries": [
+						"When you or a creature you can see within 30 feet of you suffers a critical hit while you're wearing the armor or wielding the shield that bears the emblem, you can use your reaction to expend 1 charge to turn the critical hit into a normal hit instead."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"urban"
+			],
+			"fluff": {
+				"name": "Blackguard",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Blackguards are paladins who broke their sacred oaths and now indulge their own dark ambitions. They consort with fiends and undead, and they reject all goodly things from their former lives."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/VGM/Blackguard.png?v=1.117.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/blackguard.mp3?v=1.117.0"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"CP"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RNG",
+				"RW"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"prone"
 			]
 		}
 	]
