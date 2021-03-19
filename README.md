@@ -8,5 +8,5 @@ Magias e Livros processados:
 - Xanathar: [30%]
 
 --------
-• Erros conhecidos:
+- Erros conhecidos:
 1. Magia Teleporte de nível 7 possui uma tabela que não consegui formatar e fazer funcionar.
